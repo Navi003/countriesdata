@@ -6,7 +6,7 @@ export default function Main(props) {
   return (
     <section className="section container">
       {props.loading && <Spinner />}
-      {props.error && <p>{props.error}</p>}
+      {/* {props.error && <p>{props.error}</p>} */}
       {props.data &&
         props.data.map((country) => (
           <CountryDataCard
